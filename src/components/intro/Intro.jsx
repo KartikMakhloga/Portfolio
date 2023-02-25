@@ -18,7 +18,7 @@ export default function Intro() {
     <div className="intro" id="intro">
       <div className="left">
         <div className="imgContainer">
-          <img src="assets/man.png" alt="" />
+          <img src="assets/coder.jpg" alt="" />
         </div>
       </div>
       <div className="right">
@@ -26,7 +26,7 @@ export default function Intro() {
           <h2>Hi There, I'm</h2>
           <h1>Kartik Makhloga</h1>
           <h3>
-           <span ref={textRef}></span>
+            <span ref={textRef}></span>
           </h3>
         </div>
         <a href="#portfolio">

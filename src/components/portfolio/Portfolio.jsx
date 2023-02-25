@@ -67,13 +67,12 @@ export default function Portfolio() {
             active={selected === item.id}
             setSelected={setSelected}
             id={item.id}
-            key={item.id}
           />
         ))}
       </ul>
       <div className="container">
         {data.map((d) => (
-          <div className="item" key={d.id}>
+          <div className="item">
             <img
               src={d.img}
               alt=""
